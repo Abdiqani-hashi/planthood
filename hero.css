@@ -1,0 +1,48 @@
+
+
+
+.hand{
+
+   
+    width: 501px;
+    height: 620px;
+    background-image: url(images/MicrosoftTeams-image\ \(5\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   text-align: center;
+
+ 
+
+}
+.hand img{
+    margin:240px 50px;
+}
+
+
+.dig-seedling{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+
+}
+
+.dig img{
+    background-color: #9E6D52;
+    width: 500px;
+    height: 270px;
+    padding: 20px;
+    margin-bottom: -4px;
+  
+}
+
+.seedling img{
+    background-color:#0A846E;
+    width: 500px;
+    height: 270px;
+    padding: 20px;
+   
+    
+}
+

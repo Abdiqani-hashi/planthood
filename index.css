@@ -3,41 +3,34 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-header {
-    background-color: #55aaff;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-nav {
-    background-color: #eeeeee;
-    padding: 10px;
-}
-
-main {
+.main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: center;
+    margin: 0;
+
+
 }
 
-/* Lägg till stilar för ditt innehåll här */
+
+
+/* Läggas till stilar för  innehållet här */
 
 footer {
-    background-color: #55aaff;
+
     color: #fff;
     text-align: center;
     padding: 10px;
 }
 
 
+  /* Anpassa mindre skärmar. */
 @media screen and (max-width: 600px) {
     main {
         flex-direction: column;
     }
 
-    /* Lägg till andra anpassningar för mindre skärmar här */
+  
 }
