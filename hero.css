@@ -1,58 +1,74 @@
 
-
-
-.hand{
-
-   
-    width: 501px;
-    height: 620px;
+.main .hero{
     background-image: url(images/MicrosoftTeams-image\ \(5\).png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   text-align: center;
+    background-position: center;
 
- 
 
+
+  
+    width: 501px;
+    height: 540px;
+    padding: 8rem;
+
+  
+
+  
 }
-.hand img{
-    margin:240px 50px;
+.main .hero #logo{
+    margin: 41% 28%;
+    padding: 4%;
 }
+.main .hero #menu{
+    visibility:hidden;
+}
+/*End*/
 
+/*Hero goes to second div which is within MAIN div called [main]*/
 
-.dig-seedling{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+.main .dig-seedling #dig{
+    background-color:#9E6D52;
+    width: 500px;/*23rem*/
+    height:270px;/*15rem*/
+    padding: 4rem;
+    
    
-
-}
-
-.dig img{
-    background-color: #9E6D52;
-    width: 500px;
-    height: 270px;
-    padding: 20px;
-    margin-bottom: -4px;
+  
   
 }
 
-.seedling img{
+
+.main .dig-seedling #seedling{
     background-color:#0A846E;
-    width: 500px;
-    height: 270px;
-    padding: 20px;
+    width: 500px;/*23rem*/
+    height:270px;/*15rem*/
+    border: 1px solid #0A846E;
+    padding: 4rem;
+
+  
+
+
    
-    
 }
 
+/*End*/
 
 
-  /* Anpassa mindre skärmar. */
-  @media screen and (max-width: 600px) {
-    .hero{
-        flex-direction: column;
+@media screen and (max-width: 600px) {
+
+    .main .hero #menu{
+        visibility:visible;
+    }
+    .hero #menu {
+        position:absolute;
+        top: 1rem;
+        right: 2rem;
+        width: 5rem;
+       
     }
 
-  
+    
+   
+
 }

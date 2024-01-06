@@ -1,36 +1,64 @@
-body {
-    font-family: 'Arial', sans-serif;
+
+body{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    
+   overflow-x: hidden;
+    text-align: center;
+   
 }
 
-.hero{
+.main{
+    
+   
     display: flex;
     justify-content: center;
-    margin: 0;
-
-
-}
-
-
-
-/* Läggas till stilar för  innehållet här */
-
-footer {
-
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
-
-  /* Anpassa mindre skärmar. */
-@media screen and (max-width: 600px) {
-    main {
-        flex-direction: column;
-    }
+    flex-wrap: wrap;
 
   
+   
+
+   
+}
+
+
+
+
+.dig-seedling{
+    display: flex;
+    flex-direction: column;
+}
+
+.veckorseed{
+   background-color: #FFFFFF;
+}
+
+/*fOOTER*/
+footer{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+      .main{
+        flex-direction: column;
+      }
+
+      .veckoorseed .article{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    
+    }
+
+
+    .veckoorseed  h1{
+        font-size: 24   px;
+        color: #0A846E;;
+        font-weight: 500px;
+        margin-bottom: 1.2em;
+    }
+    
+    
 }
