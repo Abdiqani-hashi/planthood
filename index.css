@@ -44,6 +44,8 @@ footer{
         flex-direction: column;
       }
 
+     
+
       .veckoorseed .article{
         text-align: center;
         display: flex;
@@ -53,12 +55,45 @@ footer{
     }
 
 
-    .veckoorseed  h1{
-        font-size: 24   px;
-        color: #0A846E;;
-        font-weight: 500px;
-        margin-bottom: 1.2em;
-    }
     
+    
+    .article-img{
+
+   
+        background-color: #0A846E;
+        width: 14rem;
+        height: 12rem;
+        border-radius: 116%;
+        margin: 0 auto;
+
+
+    }
+
+
+    .veckoorseed .article-div h2{
+        text-align: center;
+    
+    }
+
+    .veckoorseed .article-div   p{
+   
+
+       
+        text-align: center;
+        
+    
+    }
+
+    .veckoorseed .article .article-div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .btn-button{
+        justify-content: center;
+        margin: 0 12rem 0 2rem;
+    }
+
+
     
 }
