@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.vegetables{
+    background-color: rgb(206, 213, 213);
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.plant-1{
+    background-image: url(/images/MicrosoftTeams-image\ \(6\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+}
+
+.plant-2{
+    background-image: url(/images/MicrosoftTeams-image\ \(7\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.plant-3{
+    background-image: url(/images/MicrosoftTeams-image\ \(9\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.vegetables >img{
+   padding: 40px;
+  
+
+}

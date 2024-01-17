@@ -1,0 +1,30 @@
+.planteringar h2{
+    color: #000000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    margin-top: 4rem;
+
+}
+
+.planteringar .card .img {
+    padding: 8rem;
+
+
+}
+
+.planteringar .card .img{
+    background-image: url(images/MicrosoftTeams-image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+

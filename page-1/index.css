@@ -2,7 +2,7 @@
 body{
     margin: 0;
     box-sizing: border-box;
-   overflow-x: hidden;
+     overflow-x: hidden;
     text-align: center;
    
 }
@@ -12,13 +12,18 @@ body{
    
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-
+    
   
    
 
    
 }
+.planteringar div{
+    display: flex;
+    justify-content: center;
+
+}
+
 
 
 
@@ -32,11 +37,25 @@ body{
    background-color: #FFFFFF;
 }
 
+.veckoorseed #horizontal{
+    width: 303.24px;
+    border: 3px solid #0A846E;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+    margin-left: 39%;
+   
+
+
+}
 /*fOOTER*/
 footer{
     text-align: center;
     margin-bottom: 0;
 }
+
+
+
+/*Responsive design*/
 
 
 @media screen and (max-width: 600px) {
@@ -51,6 +70,9 @@ footer{
         display: flex;
         justify-content: center;
         flex-direction: column-reverse;
+
+
+      
     
     }
 
@@ -61,24 +83,29 @@ footer{
 
    
         background-color: #0A846E;
-        width: 14rem;
-        height: 12rem;
-        border-radius: 116%;
-        margin: 0 auto;
+        border-radius: 150%;
+        padding: 4.0em;
+        margin: -20rem 1.5rem;
 
+        margin-top: -4rem;
+     
 
     }
-
+    .veckoorseed h1{
+        text-align: center;
+        font-size: 24px;
+        font-weight: 200px;
+        
+    
+    }
 
     .veckoorseed .article-div h2{
         text-align: center;
+        margin-top: -4rem;
     
     }
 
     .veckoorseed .article-div   p{
-   
-
-       
         text-align: center;
         
     
@@ -87,13 +114,30 @@ footer{
     .veckoorseed .article .article-div{
         display: flex;
         flex-direction: column;
+
+    
+
         
     }
     .btn-button{
         justify-content: center;
-        margin: 0 12rem 0 2rem;
+        margin: 0 12rem -4rem 2rem;
+
+        margin-top: rem;
     }
 
+    
+.veckoorseed #horizontal{
+    width: 303.24px;
+    border: 3px solid #0A846E;
+    margin: 0 auto;
+    margin-top: -2.5rem;
+    margin-left: 20%;
+    margin-right: 30%;
+   
+
+
+}
 
     
 }

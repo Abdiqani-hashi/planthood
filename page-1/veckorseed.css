@@ -3,15 +3,17 @@
     text-align: center;
     display: flex;
     justify-content: center;
+
+    margin-bottom: 2rem;
   
     
 
 }
 .veckoorseed  h1{
-    font-size: 48px;
+    font-size: 42px;
     color: #0A846E;;
     font-weight: 500px;
-    margin-bottom: 1.5em;
+  
 }
 
 .veckoorseed  h2{
@@ -23,6 +25,7 @@
     line-height: 44px;
     letter-spacing: 0em;
     text-align: left;
+  
 
 }
 
@@ -45,16 +48,18 @@
 .article-img{
 
     background-color: #0A846E;
-
     border-radius: 115%;
+    padding: 6.0em;
+    margin: 4rem 1.5rem;
 
-    padding: 6.1em;
 }
 
 .veckoorseed .article .article-div{
     width: 400px;
     height: 270px;
-    margin: 4rem;
+    margin: 6.5rem 1.5rem;
+
+
 }
 
 
